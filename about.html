@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="custom.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+         .shop1 {
+            padding: 6px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            transition: .1s;
+            transform: translatey(-100%);
+            z-index: 1;
+        }
+        .shop:hover .shop1{
+            transform: translateY(30%);
+        }
+         .about1 {
+            padding: 6px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            transition: .1s;
+            transform: translatey(-100%);
+            z-index: 1;
+        }
+        .about:hover .about1{
+            transform: translateY(20%);
+        }
+    </style>
+    <main>
+
+        <!-- <div class="container "> -->
+            <nav class="bg-white border-2 h-[15vh] sticky top-0 z-10">
+                <div class="bg-yellow-500 text-white w-[100%] h-[4vh] flex">
+                    <marquee behavior="scroll" scrollamount="10" direction=" auto" class=" items-center justify-center text-xs"> <div><a href="">Free Shipping Over $150</a><span class="p-10">.</span> <span class="pr-10"><a href="">End of Season Sale - up to 40% off</span></a><a href="">Free Shipping Over $150</a><span class="p-10">.</span> <span><a href="">End of Season Sale - up to 40% off</span></a><span class="p-10">.</span><a href="">Free Shipping Over $150</a><span class="p-10">.</span> <span><a href="">End of Season Sale - up to 40% off</span></a><span class="p-10">.</span><a href="">Free Shipping Over $150</a><span class="p-10">.</span> <span><a href="">End of Season Sale - up to 40% off</span></a></div></marquee>
+                </div>
+                <div class=" flex justify-between items-center p-2 text-xs mx-6">
+                        <div class="flex gap-10">
+                            <div class="shop">
+                                <a href=""> shop <i class="fa fa-chevron-down"></i></a>
+                                <div class="shop1">
+                                    <div class="p-4 bg white">
+                                        <div class="flex justify-between p-6">
+                                            <div>
+                                                <h2 class="text-lg font-bold leading-8">For the modern traveler.</h2>
+                                                <p class="text-sm text-gray-500">Lightweight. Durable. Packs Small</p>                                            
+                                                    <div class="flex gap-10">
+                                                        <div class="grid">
+                                                            <a href="" class="text-xs font-bold hover:underline leading-8">Featured</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Best sellers</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">New Arrivals</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Travel Merino Wool</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Travel cotton</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Evolution colletion</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Gift Card</a>
+                                                            <a href="" class="text-xs text-yellow-300 hover:text-yellow-600">sale</a>
+                                                        </div>
+                                                        <div class="grid">
+                                                            <a href="" class="text-xs font-bold hover:underline leading-8">Tops</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Tees</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Shirts</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Outbond camp shirts</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Jackets</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">All Travel Tops</a>
+                                                        </div>
+                                                        <div class="grid">
+                                                            <a href="" class="text-xs font-bold hover:underline leading-8">Bottoms</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">pants</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Shorts</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">All Travel Bottoms</a>                                                
+                                                        </div>
+                                                        <div class="grid">
+                                                            <a href="" class="text-xs font-bold hover:underline leading-8">Outerwear</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">venture Hoodie</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">venture Crew</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Shop All </a>
+                                                            
+                                                        </div>
+                                                        <div class="grid">
+                                                            <a href="" class="text-xs font-bold hover:underline leading-8">Travel Accessories</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Bags</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Hats</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Socks </a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">Gift cards</a>
+                                                            <a href="" class="text-xs text-gray-500 hover:text-black">shop ALL</a>                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    <div class="flex gap-6">
+                                                        <div class="relative">                                                
+                                                                <img src="images/1726100041260.jpeg" alt="" width="200" class="rounded-2xl">
+                                                                <p class="text-2xl text-white absolute bottom-8 left-8">NEW ARRIVALS</p>
+                                                            </div>
+                                                        <div class="relative">                                                
+                                                                <img src="images/1726100041261.jpeg" alt="" width="200" class="rounded-2xl">
+                                                                <p class="text-2xl text-white absolute bottom-8 left-8">BEST SELLERS</p>
+                                                            </div>
+                                                    </div>
+
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about">
+                                <a href=""> about <i class="fa fa-chevron-down"></i></a>
+                                <div class="about1">
+                                    <div class="p-4 flex justify-center gap-10">
+                                        <a href="story.html">
+
+                                            <div class="relative">
+                                                <img src="images/1726100041270.jpeg" alt="" width="300" class="rounded-2xl">
+                                                <h2 class="left-[40%] top-[50%] absolute text-2xl text-white">STORY</h2>
+                                            </div>
+                                        </a>
+                                        <a href="about.html">
+
+                                            <div class="relative">
+                                                <img src="images/1726100041272.jpeg" alt="" width="300" class="rounded-2xl">
+                                                <h2 class="left-[40%] top-[50%] absolute text-2xl text-white">ABOUT</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="index.html" class="text-yellow-500"> sale </a>
+                            </div>
+                            <div>
+                                <a href=""> journal</a>
+                            </div>
+                            <div>
+                                <a href=""> find my fit</i></a>
+                            </div>
+                        </div>
+                        <div class="p-2">
+                            <img src="images/1726100041227.png" alt="" width="150">
+                        </div>
+                        <div class="p-2 flex gap-10">
+                            <select class="">
+                                <option value="">NGN</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                                <option value="">naira</option>
+                            </select>
+                            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                        </div>
+                </div>
+            </nav>
+<div class="relative">   
+    <img src="images/extractimages_9122024_12802.jpeg" alt="" >
+    <div class="">
+        <div><hr class="bg-white mx-10 w-[90%] font-bold absolute top-8 left-4"></div>
+        <h2 class="text-5xl text-white font-bold w-[600px] absolute top-12 left-4">Western Rise-A Brand For The Modern Traveler</h2>
+    </div>
+</div>
+<div class="flex justify-center gap-10 p-8">
+    <div class="">
+        <img src="images/extractimages_9122024_12809.svg" width="80" alt="" class="p-2">
+        <p class="text-xs text-gray-500 text-center">Lightweight</p>
+    </div>
+    <div class="">
+        <img src="images/extractimages_9122024_12814.svg" width="80" alt="" class="p-2">
+        <p class="text-xs text-gray-500 text-center">versatile</p>
+    </div>
+    <div class="">
+        <img src="images/extractimages_9122024_12817.svg" width="80" alt="" class="p-2">
+        <p class="text-xs text-gray-500 text-center">Durable</p>
+    </div>
+    <div class="">
+        <img src="images/extractimages_9122024_12820.svg" width="80" alt="" class="p-2">
+        <p class="text-xs text-gray-500 text-center">Easy Maintenance</p>
+    </div>
+</div>
+<div class="flex gap-10 pb-6">
+    <div class="border-l-2 mx-8 border-l-black w-[400px]">
+        <h2 class="text-6xl font-[600px] leading-10 mx-4">our mission</h2><br>
+        <p class="font-bold mx-4">We make quality apparel for the modern one-bag traveler so they can carry less and experience more.</p><br>
+        <img src="images/1726100041256.png" alt="" width="50" class="mx-4">
+    </div>
+    <div class="w-[700px]">
+        <p class="text-sm text-gray-600">At Western Rise, our mission is to inspire change by crafting durable, functional products that enhance travel and empower fulfilling lives.</p>
+    </div>
+</div>
+<div class=" flex justify-center p-4 rounded">
+    <img src="images/craft-common-image-01.webp" alt="">
+</div>
+<div class="m-4 flex gap-[10%] mx-[10%] p-8">
+    <div class="">
+        <img src="images/extractimages_9122024_12742.jpeg" alt="" class="p-2 rounded-2xl h-[90vh] w-[500px]">
+    </div>
+    <div class="grid ">
+        <div class="text-black text-5xl text-right py-10">
+            <h2 class="">WE BELIEVE <br> <Span class="text-right">TRAVELS</Span></h2>
+            <h2>TRANSFORMS <br> <Span>LIVES</Span></h2>
+        </div>
+        <div>
+            <img src="images/extractimages_9122024_12823.jpeg" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="relative pb-10">   
+        <img src="images/extractimages_9122024_12907.jpeg" class="opacity-[1.5]" alt="" width="100%" >
+        <div class="">
+            <div><hr class="bg-white mx-10 w-[90%] font-bold absolute top-8 left-4"></div>
+            <div class="absolute top-12 left-4">
+                <!-- <div class="border-t-2 mx-[5%]"></div> -->
+                <div class="w-[600px]">
+                    <h2 class="text-4xl text-white font-bold w-[600px] leading-10">Thoughtful Design</h2><br>
+                    <p class="text-white text-x">Quality and the art of true craftsmanship create beauty. We understand that beauty is the antidote to the overwhelming stream of noise and disposable possessions. With a discerning eye for beauty, we bring focus and clarity to our lives and the world around us. Our designs are not just visually appealing but also serve multiple functions, ensuring that every product we create is both beautiful and purposeful.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-[10%] mx-[10%] p-10">
+        <img src="images/extractimages_9122024_12952.jpeg" alt="" class="rounded-2xl h-[70vh]">
+        <div class="items-center py-[10%]">
+            <h2 class="text-4xl font-bold leading-10">Our work</h2><br>
+                <p class="text-sm leading-6">We work to inspire and equip travelers for transformative journeys. We craft the most versatile and high-performance travel clothing in the world. Designed for diverse environments and rigorously tested globally, our apparel enhances every facet of the travel experience. And because the most memorable journeys are those we share, we curate a range of visual storytelling and unique experiences to connect like-minded explorers, near and far, and to compel people to embark on their own adventures.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mx-[10%] p-10 flex gap-[10%]">
+        <div class="grid">
+            <div class="pb-10">
+                <div class=" p-4 border-l-2 border-l-black w-[350px]">
+                    <p class="font-bold text-lg">"These are the pants that Tony Stark
+                        would design and wear"</p><br>
+                        <img src="images/1726100041233.svg" alt="">
+                </div>
+            </div>
+            <div class="pt-[10%] p-2">
+                <img src="images/1726150125021.jpeg" alt="" width="500" class="rounded-2xl">
+            </div>
+        </div>
+        <div class="grid">
+            <div class="pb-10 p-2">
+                <img src="images/craft-gallery-image-01.webp" alt="" width="500" class="rounded-2xl">
+            </div>
+            <div class="p-10 ">
+                <img src="images/1726150125027.jpeg" alt="" width="400" class="rounded-2xl">
+            </div>
+        </div>
+    </div>
+    <div class="p-2 flex justify-center pb-4">
+        <img src="images/extractimages_9122024_12741.png" alt="" class="rounded-2xl" width="900">
+    </div>
+    <div class="flex gap-6 justify-center p-8">
+        <div class="p-2">
+            <img src="images/craft-page-collage-double-01.webp" alt="" class="rounded-2xl" width="500">
+        </div>
+        <div class="p-2">
+            <img src="images/craft-page-collage-double-02.webp" alt="" class="rounded-2xl" width="500">
+        </div>
+    </div>
+    <div class="w-[600px] mx-[10%] p-10">
+        <h2 class="text-4xl font-[900px]">Our Philosophy</h2><br>
+        <p class="text-sm">We embrace simplicity and strive to surround ourselves with only the people and things we truly care for. By stepping away from society’s desire to accumulate, we find harmony in living a thoughtful life. Our products reflect this philosophy, designed to earn a place in your life by being both functionally and aesthetically exceptional.</p>
+    </div>
+    <div class="mx-[10%] flex gap-10 pb-10">
+        <div class="w-[500px] px-[40px] py-[10%] ">
+            <h2 class="text-4xl font-bold">Our Logo</h2><br>
+            <p class="text-sm">Western Rise's logo, inspired by the elevation survey marker found at a mountain's highest point, encapsulates our brand's essence of reaching new heights in both travel and personal transformation. This symbol serves as a modern-day crest for adventurers, reminiscent of the markers that have guided explorers through generations.</p>
+        </div>
+        <div class="p-2">
+            <img src="images/Westernrise-2023-logo-changing.webp" alt="" width="400" class="rounded-2xl">
+        </div>
+    </div>
+    <div class="bg-black rounded-2xl p-10">
+        <div class="text-center text-white mx-[15%] p-8">
+            <h2 class="text-6xl font-bold">Sustainability</h2><br>
+            <p class="text-sm">As a carbon-neutral company, we are committed to sustainability in every aspect of our business. We understand the importance of forecasting and purchasing based on customer demand, ensuring that our production processes are efficient and environmentally friendly. Our goal is to create high-quality, durable products that reduce waste and promote a more sustainable lifestyle.</p>
+        </div>
+        <div class="flex gap-10 justify-center items-center p-8">
+            <img src="images/extractimages_9122024_12835.svg" alt="">
+            <img src="images/extractimages_9122024_12840.svg" alt="">
+            <img src="images/extractimages_9122024_12842.svg" alt="">
+            <img src="images/extractimages_9122024_12844.svg" alt="">
+            <img src="images/extractimages_9122024_12846.svg" alt="">
+        </div>
+    </div>
+    <div class="text-center p-4 pt-[10%]">
+        <a href="" class="underline">follow us</a><br>
+        <h2 class="text-2xl font-bold">@western_rise</h2>
+    </div>
+    <div class="flex gap-6 mx-8">
+        <img src="images/1726100041251.png" alt="" width="300" class="rounded">
+        <img src="images/1726100041252.png" alt="" width="300" class="rounded">
+        <img src="images/1726100041254.png" alt="" width="300" class="rounded">
+        <img src="images/1726100041255.png" alt="" width="300" class="rounded">
+    </div>
+</main>
+</body>
+<footer class="mx-6 my-6">
+<div class="flex justify-between p-10">
+<div class="leading-6">
+    <img src="images/1726100041256.png" alt="">
+    <h2 class="text-2xl">Travel further with less.</h2>
+    <p class="text-xs text-gray-600">Effortless travel staples that let you carry less and experience more.</p>
+</div>
+<div class="flex gap-6">
+    <div class="grid">
+        <h2 class="font-bold">Shop</h2>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+    </div>
+    <div class="grid">
+        <h2 class="font-bold">Where To?</h2>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+    </div>
+    <div class="grid">
+        <h2 class="font-bold">Travel Concierge</h2>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+        <a href="" class="text-sm text-gray-500">Outerwear</a>
+    </div>
+    <div class="grid">
+        <h2 class="font-bold">Account</h2>
+        <a href="" class="text-sm text-gray-500 leading-2">Login</a>
+        <a href="" class="text-sm text-gray-500">Sign up</a>
+    </div>
+</div>
+<div class="leading-8">
+    <h2 class="font-bold text-xs leading-8">Sign Up Now!</h2>
+    <p class="text-xs text-gray-500">Get exclusive discounts, plus travel hacks, packing tips and more.</p>
+    <input type="text" placeholder="email" class="bg-gray-200 w-[100%] h-[6vh] m-2 items-center p-4">
+</div>
+</div>
+<div class="flex justify-between">
+<p class="text-xs text-gray-500">&copy;2024 All Rights Reserved</p>
+<div class="flex gap-10">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+</div>
+</footer>
+</html>
+    
